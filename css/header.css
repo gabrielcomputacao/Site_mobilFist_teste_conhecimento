@@ -1,0 +1,70 @@
+/* http://html-color-codes.info/colors-from-image/
+site para identificaçao de cores
+*/
+
+
+.navegacao{
+    background-image:url(../img/destaque.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.navegacao__div{
+    margin-top: 20px;
+}
+
+.navegacao__link{
+    margin-left: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255,0.5);
+    background: rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    text-transform: uppercase;
+}
+
+.navegacao__link:hover{
+    background-color: #46989D;
+    
+}
+
+.textos__navegacao{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.textos__navegacao :first-child{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.textos__navegacao :last-child{
+    margin-bottom: 10px;
+    color: greenyellow;
+}
+
+.ancoralink__navegacao{
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.ancoralink__navegacao a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 26px;
+    border: 1px solid black;
+    padding: 15px;
+    background: #46989D;
+    border-radius: 4px;
+}
