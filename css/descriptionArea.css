@@ -1,0 +1,19 @@
+.descricao{
+    margin: 20px 20px 7px 20px;
+    text-align: center;
+}
+
+.title__descricao{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.subtitle__descricao{
+    font-size: 22px;
+}
+
+.textos__descricao{
+    margin-top: 10px;
+    line-height: 2;/* o tamanho da font vezes o numero escolhido */
+}
+

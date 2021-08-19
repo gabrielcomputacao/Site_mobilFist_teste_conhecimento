@@ -2,7 +2,12 @@
 site para identificaçao de cores
 */
 
+/* 
+Unidade EM
 
+numero de vezes da unidade do pai
+3em é tres vezes a unidade do elemento pai
+*/
 .navegacao{
     background-image:url(../img/destaque.jpeg);
     background-repeat: no-repeat;
@@ -14,6 +19,7 @@ site para identificaçao de cores
     justify-content: center;
     text-align: center;
 }
+
 
 .navegacao__div{
     margin-top: 20px;
@@ -67,4 +73,22 @@ site para identificaçao de cores
     padding: 15px;
     background: #46989D;
     border-radius: 4px;
+}
+
+@media screen and (max-width:520px){
+    .textos__navegacao {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:670px) {
+    .textos__navegacao{
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .textos__navegacao{
+        font-size: 120px;
+    }
 }

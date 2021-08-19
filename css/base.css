@@ -1,0 +1,5 @@
+/* classe criada para dar espaçamentos do lado esquerdo e direito */
+.container{
+    width: 96%;
+    margin:0 auto;
+}
