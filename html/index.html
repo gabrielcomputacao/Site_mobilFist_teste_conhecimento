@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,17 @@
     <link rel="stylesheet" href="../css/descriptionArea.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/palestrantes.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <title>Palestrantes</title>
 </head>
+
 <body>
     <header class="navegacao">
         <nav>
             <div class="navegacao__div">
                 <a class="navegacao__link" href="#">sobre</a>
                 <a class="navegacao__link" href="#">Palestrantes</a>
-            </div>          
+            </div>
         </nav>
         <div>
             <section class="textos__navegacao">
@@ -71,14 +74,14 @@
                     <figcaption class="text primeiro">Flavio Almeida</figcaption>
                     <p class="text segundo">desenvolvedor e Instrutor - Alura/Caelum</p>
                 </figure>
-                <p class="text descricao__card">Contrary to popular belief, 
+                <p class="text descricao__card">Contrary to popular belief,
                     Lorem Ipsum is not simply random text. It has roots in a piece
-                     of classical Latin literature from 45 BC, making it over 2000
-                      years old. Richard McClintock, a Latin professor at Hampden-
-                      Sydney College in Virginia, looked up one of the more obscure 
-                      Latin words, consectetur, from a Lorem Ipsum passage, and
-                       going through the cites of the word in classical literature, 
-                       discovered the undoubtable source</p>
+                    of classical Latin literature from 45 BC, making it over 2000
+                    years old. Richard McClintock, a Latin professor at Hampden-
+                    Sydney College in Virginia, looked up one of the more obscure
+                    Latin words, consectetur, from a Lorem Ipsum passage, and
+                    going through the cites of the word in classical literature,
+                    discovered the undoubtable source</p>
             </div>
             <div class="card__palestrantes">
                 <figure>
@@ -107,9 +110,26 @@
 
         </div>
     </section>
+    <section class="formulario">
+        <h2>Seus Dados</h2>
+        <form action="#">
+            <div class="form__dados">
+                <label for="nome">Nome:</label>
+                <input class="captar" type="text" id="nome" name="nome">
 
+                <label for="email">E-mail:</label>
+                <input class="captar" type="text" id="email" name="email">
+                <div class="inscricao">
+                    <button>Realizar Inscrição</button>
+                </div>
+
+            </div>
+
+        </form>
+    </section>
 
 
 
 </body>
+
 </html>

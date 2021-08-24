@@ -1,0 +1,39 @@
+.formulario h2{
+    text-align: center;
+    color: coral;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.form__dados{
+    padding: 10px 20px;
+    
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.captar{
+    display: block;
+    width: 100%;
+    box-shadow: 1px 1px 10px  #46989D;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inscricao{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inscricao button{
+    padding: 20px;
+    text-transform: uppercase;
+    background-color:#46989D ;
+    color: white;
+    border-radius: 4px;
+}
